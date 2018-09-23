@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 01. Matrix of Palindromes", "Problem 01. Matrix of Palindromes\Problem 01. Matrix of Palindromes.csproj", "{38A15B7B-7943-4F80-8367-BF4C5687E257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 02. Diagonal Difference", "Problem 02. Diagonal Difference\Problem 02. Diagonal Difference.csproj", "{DC32959A-A2B6-4CB8-A3A1-FCD995726870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 03. 2x2 Squares in Matrix", "Problem 03. 2x2 Squares in Matrix\Problem 03. 2x2 Squares in Matrix.csproj", "{C3515A06-23B2-47AA-AF2A-20DEDF292B62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 04. Maximal Sum", "Problem 04. Maximal Sum\Problem 04. Maximal Sum.csproj", "{4A210356-4B28-468B-9CB2-16CA7790955C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 05. Rubik’s Matrix", "Problem 05. Rubik’s Matrix\Problem 05. Rubik’s Matrix.csproj", "{512BF394-8E1D-46F7-BF3E-C1DDEA1B49FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 06. Target Practice", "Problem 06. Target Practice\Problem 06. Target Practice.csproj", "{2ED10EDD-7B42-469C-B4E7-FA374FD608AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38A15B7B-7943-4F80-8367-BF4C5687E257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A15B7B-7943-4F80-8367-BF4C5687E257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A15B7B-7943-4F80-8367-BF4C5687E257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A15B7B-7943-4F80-8367-BF4C5687E257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC32959A-A2B6-4CB8-A3A1-FCD995726870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC32959A-A2B6-4CB8-A3A1-FCD995726870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC32959A-A2B6-4CB8-A3A1-FCD995726870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC32959A-A2B6-4CB8-A3A1-FCD995726870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3515A06-23B2-47AA-AF2A-20DEDF292B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3515A06-23B2-47AA-AF2A-20DEDF292B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3515A06-23B2-47AA-AF2A-20DEDF292B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3515A06-23B2-47AA-AF2A-20DEDF292B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A210356-4B28-468B-9CB2-16CA7790955C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A210356-4B28-468B-9CB2-16CA7790955C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A210356-4B28-468B-9CB2-16CA7790955C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A210356-4B28-468B-9CB2-16CA7790955C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{512BF394-8E1D-46F7-BF3E-C1DDEA1B49FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{512BF394-8E1D-46F7-BF3E-C1DDEA1B49FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{512BF394-8E1D-46F7-BF3E-C1DDEA1B49FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{512BF394-8E1D-46F7-BF3E-C1DDEA1B49FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED10EDD-7B42-469C-B4E7-FA374FD608AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED10EDD-7B42-469C-B4E7-FA374FD608AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED10EDD-7B42-469C-B4E7-FA374FD608AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED10EDD-7B42-469C-B4E7-FA374FD608AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A3E8DA3-0B24-4BF5-9ABB-797A2118E265}
+	EndGlobalSection
+EndGlobal
