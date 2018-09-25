@@ -1,4 +1,4 @@
-﻿namespace Problem_09._Crossfire
+namespace Problem_09._Crossfire
 {
     using System;
     using System.Collections.Generic;
@@ -37,13 +37,13 @@
                 int col = parameters[1];
                 int radius = parameters[2];
 
-                if (row >= matrix.Length)
+                if (row >= matrix.Length || row < 0 || col < 0)
                 {
                     line = Console.ReadLine();
                     continue;
                 }
 
-                for (int rw = Math.Max(0, row - radius); rw < Math.Min(matrix.Length, row + radius+1); rw++)
+                for (int rw = Math.Max(0, row - radius); rw < Math.Min(matrix.Length, row + radius + 1); rw++)
                 {
                     if (matrix[rw].Length > col)
                     {
@@ -52,7 +52,7 @@
                     }
                 }
 
-                for (int cl = Math.Max(0, col - radius); cl < Math.Min(matrix[row].Length, row + radius+1); cl++)
+                for (int cl = Math.Max(0, col - radius); cl < Math.Min(matrix[row].Length, row + radius + 1); cl++)
                 {
                     if (matrix[row].Length > cl)
                     {
@@ -85,7 +85,7 @@
 
             foreach (int[] lineOfNumbers in matrix)
             {
-                Console.WriteLine(string.Join(" ",lineOfNumbers));
+                Console.WriteLine(string.Join(" ", lineOfNumbers));
             }
         }
     }
